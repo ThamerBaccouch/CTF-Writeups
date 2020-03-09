@@ -19,25 +19,33 @@ there is nothing special just a welcome that prints a welcome message and an inf
 int do_move()
 {
   int result; // eax@2
+  
   char s[64]; // [sp+0h] [bp-40h]@1
 
   puts("What would you like to do?");
+  
   fgets(s, 50, stdin);
+  
   s[strcspn(s, "\n")] = 0;
-  if ( !strcmp(s, "go west") )
-  {
+  
+  if ( !strcmp(s, "go west") ){
+    
     puts("You move west to arrive in a cave dimly lit by torches.");
+    
     result = puts("The cave two tunnels, one going east and the other going west.");
-  }
-  else if ( !strcmp(s, "go east") )
-  {
+  
+  }else if ( !strcmp(s, "go east") ){
+  
     puts("You move east to arrive in a cave dimly lit by torches.");
+    
     result = puts("The cave two tunnels, one going east and the other going west.");
-  }
-  else
-  {
+    
+  }else{
+  
     printf(s, "go east");
+    
     result = puts(" is not a valid instruction.");
+    
   }
   return result;
 }
