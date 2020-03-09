@@ -16,7 +16,7 @@ In this challenge we were given a binary file and a netcat connection so it's a 
 
 there is nothing special just a welcome that prints a welcome message and an infinite loop that executes do_move function so let's check that function:
 
-`int do_move()
+int do_move()
 {
   int result; // eax@2
   char s[64]; // [sp+0h] [bp-40h]@1
@@ -40,7 +40,7 @@ there is nothing special just a welcome that prints a welcome message and an inf
     result = puts(" is not a valid instruction.");
   }
   return result;
-}`
+}
 
 We can spot the vulnerability direcly in the do_move function which is a format string where our input is passed as a first argument to a printf.
 
