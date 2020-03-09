@@ -5,14 +5,17 @@ In this challenge we were given a binary file and a netcat connection so it's a 
 ## let's start first by static analysis with the one and only IDA:
 ### Looking at main function pseudo code using IDA decompiler:
 
-`int __cdecl __noreturn main(int argc, const char **argv, const char **envp)
-{
+`int __cdecl __noreturn main(int argc, const char **argv, const char **envp){
+
   welcome(*(_QWORD *)&argc, argv, envp);
+  
   while ( 1 )
-    do_move();
+        do_move();
+    
 }`
 
 there is nothing special just a welcome that prints a welcome message and an infinite loop that executes do_move function so let's check that function:
+
 `int do_move()
 {
   int result; // eax@2
@@ -43,11 +46,11 @@ We can spot the vulnerability direcly in the do_move function which is a format 
 
 using gdb let's check the binary's protections:
 
-CANARY    : disabled
-FORTIFY   : disabled
-NX        : disabled
-PIE       : disabled
-RELRO     : Partial
+* CANARY    : disabled
+* FORTIFY   : disabled
+* NX        : disabled
+* PIE       : disabled
+* RELRO     : Partial
 
 As we can see everything is disabled.
 We can use a ret2libc technique then ? or could we ?
