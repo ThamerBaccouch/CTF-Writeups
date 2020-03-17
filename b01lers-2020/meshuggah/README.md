@@ -9,4 +9,4 @@ well my idea was to connect to the netcat service then get the time of the serve
 
 when we get the seed we can simply generate all of the rest rand values and feed it to the netcat service.
 
-you can find the rand generator and python script for this challenge.
+you can check the rand generator and python script for this challenge.
