@@ -12,16 +12,21 @@ we can overwrite the saved eip to jump to win function ? theoratically  we can b
 
 our first ROP chain will look like this :
 
-----------------
+________________
+JUNK
+JUNK
+....
+....
+JUNK
+________________
 pop rdi
-----------------
+________________
 libc_start_main_got_entry
-----------------
+________________
 puts_plt
-----------------
+________________
 entry point of the binary (to restart the program)
-----------------
-
+________________
 then send the character 'd' 7 times to get out of the second while loop in the picture to return.
 
 we now have the libc leaked.
@@ -29,15 +34,22 @@ using the correct libc calculate offset of the  libc_start_main to get libc base
 and from that we determine system and /bin/sh.
 
 our second payload will look like this:
-------------------
+
+________________
+JUNK
+JUNK
+....
+....
+JUNK
+________________
 ret
-------------------
+________________
 pop rdi
-------------------
+________________
 /bin/sh
-------------------
+________________
 system
-------------------
+________________
 
 the first ret is to allign the stack because 64bit binaries need 16-bytes allignements on the stack.
 
