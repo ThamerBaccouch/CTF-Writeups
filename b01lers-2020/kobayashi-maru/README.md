@@ -1,10 +1,12 @@
 **## kobayashi-maru**
 
 let's open IDA as a first step like always, and notice all of these functions :
+
 ![](https://i.ibb.co/cghG8Jk/func.png)
 
 
 after some more analysis I found this:
+
 ![](https://i.ibb.co/Z140P1L/aaa.png)
 
 we can notice right away the format string the program reads 19 characters with a subroutine then printf(input).
