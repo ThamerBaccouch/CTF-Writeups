@@ -1,6 +1,6 @@
 **## kobayashi-maru**
 
-let's open IDA as a first step like always, and notice all of these functions :
+let's open IDA as a first step like always, we notice all of these functions :
 
 ![](https://i.ibb.co/cghG8Jk/func.png)
 
