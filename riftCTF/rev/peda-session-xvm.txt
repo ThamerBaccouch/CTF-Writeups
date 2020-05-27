@@ -1,0 +1,3 @@
+break strncmp
+break puts
+

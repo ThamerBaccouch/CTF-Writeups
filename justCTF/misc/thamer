@@ -1,0 +1,362 @@
+digraph {
+	all [label=all]
+	all -> ll_
+	all -> l_s
+	all -> lay
+	all -> lik
+	all -> le_
+	puz [label=puz]
+	puz -> zzl
+	o_s [label=o_s]
+	o_s -> solve
+	o_s -> sha
+	o_s -> sin
+	_do [label=_do]
+	_do -> olv
+	_do -> oub
+	_do -> o_s
+	oub [label=oub]
+	oub -> bt_
+	n_m [label=n_m]
+	n_m -> my_
+	n_m -> mind_
+	t_p [label=t_p]
+	t_p -> puz
+	t_p -> player_
+	d_t [label=d_t]
+	d_t -> that_was_great_
+	d_t -> t_g
+	d_t -> there
+	d_t -> the
+	d_t -> t_i
+	d_t -> t_p
+	olv [label=olv]
+	olv -> ve_
+	ngl [label=ngl]
+	ngl -> ll_
+	ngl -> l_s
+	ngl -> lay
+	ngl -> lik
+	ngl -> le_
+	yer [label=yer]
+	yer -> r_l
+	yer -> re_
+	re_ [label=re_]
+	re_ -> _you_
+	re_ -> _pl
+	re_ -> _th
+	re_ -> _mind
+	re_ -> _my
+	re_ -> _do
+	re_ -> _no
+	re_ -> _puzzle
+	re_ -> _in
+	re_ -> _th
+	re_ -> _sh
+	re_ -> _so
+	re_ -> _li
+	e_was_no_single_doubt [label=e_was_no_single_doubt]
+	e_was_no_single_doubt -> that_was_great_
+	e_was_no_single_doubt -> t_g
+	e_was_no_single_doubt -> there
+	e_was_no_single_doubt -> the
+	e_was_no_single_doubt -> t_i
+	e_was_no_single_doubt -> t_p
+	in_ [label=in_]
+	in_ -> _you_
+	in_ -> _pl
+	in_ -> _th
+	in_ -> _mind
+	in_ -> _my
+	in_ -> _do
+	in_ -> _no
+	in_ -> _puzzle
+	in_ -> _in
+	in_ -> _th
+	in_ -> _sh
+	in_ -> _so
+	in_ -> _li
+	ll_ [label=ll_]
+	ll_ -> _you_
+	ll_ -> _pl
+	ll_ -> _th
+	ll_ -> _mind
+	ll_ -> _my
+	ll_ -> _do
+	ll_ -> _no
+	ll_ -> _puzzle
+	ll_ -> _in
+	ll_ -> _th
+	ll_ -> _sh
+	ll_ -> _so
+	ll_ -> _li
+	her [label=her]
+	her -> r_l
+	her -> re_
+	sha [label=sha]
+	sha -> all
+	_pl [label=_pl]
+	_pl -> ll_
+	_pl -> l_s
+	_pl -> lay
+	_pl -> lik
+	_pl -> le_
+	bt_ [label=bt_]
+	bt_ -> _you_
+	bt_ -> _pl
+	bt_ -> _th
+	bt_ -> _mind
+	bt_ -> _my
+	bt_ -> _do
+	bt_ -> _no
+	bt_ -> _puzzle
+	bt_ -> _in
+	bt_ -> _th
+	bt_ -> _sh
+	bt_ -> _so
+	bt_ -> _li
+	there [label=there]
+	there -> e_t
+	there -> e_p
+	there -> e_y
+	there -> e_was_no_single_doubt
+	t_g [label=t_g]
+	t_g -> great
+	lik [label=lik]
+	lik -> ke_
+	u_s [label=u_s]
+	u_s -> solve
+	u_s -> sha
+	u_s -> sin
+	that_was_great_ [label=that_was_great_]
+	that_was_great_ -> _you_
+	that_was_great_ -> _pl
+	that_was_great_ -> _th
+	that_was_great_ -> _mind
+	that_was_great_ -> _my
+	that_was_great_ -> _do
+	that_was_great_ -> _no
+	that_was_great_ -> _puzzle
+	that_was_great_ -> _in
+	that_was_great_ -> _th
+	that_was_great_ -> _sh
+	that_was_great_ -> _so
+	that_was_great_ -> _li
+	y_m [label=y_m]
+	y_m -> my_
+	y_m -> mind_
+	r_l [label=r_l]
+	r_l -> ll_
+	r_l -> l_s
+	r_l -> lay
+	r_l -> lik
+	r_l -> le_
+	_no [label=_no]
+	_no -> olv
+	_no -> oub
+	_no -> o_s
+	ve_ [label=ve_]
+	ve_ -> _you_
+	ve_ -> _pl
+	ve_ -> _th
+	ve_ -> _mind
+	ve_ -> _my
+	ve_ -> _do
+	ve_ -> _no
+	ve_ -> _puzzle
+	ve_ -> _in
+	ve_ -> _th
+	ve_ -> _sh
+	ve_ -> _so
+	ve_ -> _li
+	_li [label=_li]
+	_li -> in_
+	_li -> ike
+	you [label=you]
+	you -> u_s
+	hat [label=hat]
+	hat -> that_was_great_
+	hat -> t_g
+	hat -> there
+	hat -> the
+	hat -> t_i
+	hat -> t_p
+	_you_ [label=_you_]
+	_you_ -> _pl
+	_you_ -> _th
+	_you_ -> _mind
+	_you_ -> _my
+	_you_ -> _do
+	_you_ -> _no
+	_you_ -> _puzzle
+	_you_ -> _in
+	_you_ -> _th
+	_you_ -> _sh
+	_you_ -> _so
+	_you_ -> _li
+	mind_ [label=mind_]
+	mind_ -> _you_
+	mind_ -> _pl
+	mind_ -> _th
+	mind_ -> _mind
+	mind_ -> _my
+	mind_ -> _do
+	mind_ -> _no
+	mind_ -> _puzzle
+	mind_ -> _in
+	mind_ -> _th
+	mind_ -> _sh
+	mind_ -> _so
+	mind_ -> _li
+	_sh [label=_sh]
+	_sh -> her
+	_sh -> hat
+	_sh -> hal
+	_sh -> he
+	_th [label=_th]
+	_th -> her
+	_th -> hat
+	_th -> hal
+	_th -> he
+	zzl [label=zzl]
+	zzl -> ll_
+	zzl -> l_s
+	zzl -> lay
+	zzl -> lik
+	zzl -> le_
+	t_i [label=t_i]
+	t_i -> in_
+	t_i -> ike
+	ike [label=ike]
+	ike -> e_t
+	ike -> e_p
+	ike -> e_y
+	ike -> e_was_no_single_doubt
+	hal [label=hal]
+	hal -> ll_
+	hal -> l_s
+	hal -> lay
+	hal -> lik
+	hal -> le_
+	player_ [label=player_]
+	player_ -> _you_
+	player_ -> _pl
+	player_ -> _th
+	player_ -> _mind
+	player_ -> _my
+	player_ -> _do
+	player_ -> _no
+	player_ -> _puzzle
+	player_ -> _in
+	player_ -> _th
+	player_ -> _sh
+	player_ -> _so
+	player_ -> _li
+	he [label=he]
+	he -> e_t
+	he -> e_p
+	he -> e_y
+	he -> e_was_no_single_doubt
+	_puzzle [label=_puzzle]
+	_puzzle -> e_t
+	_puzzle -> e_p
+	_puzzle -> e_y
+	_puzzle -> e_was_no_single_doubt
+	l_s [label=l_s]
+	l_s -> solve
+	l_s -> sha
+	l_s -> sin
+	great [label=great]
+	great -> that_was_great_
+	great -> t_g
+	great -> there
+	great -> the
+	great -> t_i
+	great -> t_p
+	e_p [label=e_p]
+	e_p -> puz
+	e_p -> player_
+	my_ [label=my_]
+	my_ -> _you_
+	my_ -> _pl
+	my_ -> _th
+	my_ -> _mind
+	my_ -> _my
+	my_ -> _do
+	my_ -> _no
+	my_ -> _puzzle
+	my_ -> _in
+	my_ -> _th
+	my_ -> _sh
+	my_ -> _so
+	my_ -> _li
+	_so [label=_so]
+	_so -> olv
+	_so -> oub
+	_so -> o_s
+	e_t [label=e_t]
+	e_t -> that_was_great_
+	e_t -> t_g
+	e_t -> there
+	e_t -> the
+	e_t -> t_i
+	e_t -> t_p
+	e_y [label=e_y]
+	e_y -> y_m
+	e_y -> you
+	e_y -> yer
+	_mind [label=_mind]
+	_mind -> d_t
+	sin [label=sin]
+	sin -> n_m
+	sin -> ngl
+	ke_ [label=ke_]
+	ke_ -> _you_
+	ke_ -> _pl
+	ke_ -> _th
+	ke_ -> _mind
+	ke_ -> _my
+	ke_ -> _do
+	ke_ -> _no
+	ke_ -> _puzzle
+	ke_ -> _in
+	ke_ -> _th
+	ke_ -> _sh
+	ke_ -> _so
+	ke_ -> _li
+	_in [label=_in]
+	_in -> n_m
+	_in -> ngl
+	solve [label=solve]
+	solve -> e_t
+	solve -> e_p
+	solve -> e_y
+	solve -> e_was_no_single_doubt
+	the [label=the]
+	the -> e_t
+	the -> e_p
+	the -> e_y
+	the -> e_was_no_single_doubt
+	le_ [label=le_]
+	le_ -> _you_
+	le_ -> _pl
+	le_ -> _th
+	le_ -> _mind
+	le_ -> _my
+	le_ -> _do
+	le_ -> _no
+	le_ -> _puzzle
+	le_ -> _in
+	le_ -> _th
+	le_ -> _sh
+	le_ -> _so
+	le_ -> _li
+	_my [label=_my]
+	_my -> y_m
+	_my -> you
+	_my -> yer
+	lay [label=lay]
+	lay -> y_m
+	lay -> you
+	lay -> yer
+}
