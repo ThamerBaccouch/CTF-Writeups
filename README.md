@@ -1,2 +1,2 @@
 # CTF-Writeups
-This repository contains writeups of CTF challanges in which i participated.
+This repository contains challenges, exploits and writeups for CTF challanges in which i participated.
