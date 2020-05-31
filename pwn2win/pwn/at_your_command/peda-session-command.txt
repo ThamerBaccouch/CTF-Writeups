@@ -1,0 +1,3 @@
+break *_IO_new_file_close_it+400
+break *0x0000558a79533000+0x135f
+
